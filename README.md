@@ -43,9 +43,13 @@ This project demonstrates how to connect to a PostgreSQL database using Python a
 
 ## Usage
 
-To run the project, execute the main Python script:
+To run the project, execute the each of the Python script:
 ```
-python app.py
+python test_connection_without_.env.py
+python test_connection_with_.env.py
+python test_connection_without_.env.py 
+python get_secret_key.py
+python retrieve_secret_key.py
 ```
 
 This will start the Flask application and connect to the PostgreSQL database using the connection string from the `.env` file.
